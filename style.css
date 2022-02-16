@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(136, 136, 136);
+}
+.mainWindow{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(218, 218, 218);
+}
+.header{
+    text-align: center;
+    flex: 1;
+}
+.liblary{
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.seat{
+    display: flex;
+    width: 40px;
+    height:40px;
+    background-color: white;
+    margin: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex: 1;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content:space-evenly;
+}
+.button{
+    display: flex;
+    height: 30px;
+    width: 25%;
+    justify-content: space-around;
+    align-items: center;
+}
